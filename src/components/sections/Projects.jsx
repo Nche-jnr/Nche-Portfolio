@@ -47,7 +47,7 @@ export const Projects = () => {
               Developed a weather application using React.js that fetches real-time weather data from an external API. Implemented dynamic UI updates, responsive design, and location-based search functionality.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "CSS", "Node.js", "API keys", "Vercel"].map((tech, key) => (
+                {["React", "CSS3", "Node.js", "OpenWeather API", "Vite", "Vercel"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-700 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -74,7 +74,7 @@ export const Projects = () => {
               Built a responsive e-commerce bakery website, featuring product listing, interactive shopping cart, a clean and modern UI. Focused on smooth user experience and mobile-first design.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "tailwindCSS", "Node.js", "Vercel"].map((tech, key) => (
+                {["React", "tailwindCSS", "Node.js", "Vite", "Vercel"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-700 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -102,7 +102,7 @@ export const Projects = () => {
               sleek, responsive interface with dynamic updates, allowing user to monitor their favorite coins and market performance efficiently.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "tailwindCSS", "google-charts", "Node.js", "Vercel"].map((tech, key) => (
+                {["React", "tailwindCSS", "google-charts", "Coingecko API", "Node.js", "Vite", "Vercel"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-700 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -129,7 +129,7 @@ export const Projects = () => {
               A visually calming and responsive web page, designed to promote yoga classes, programs, or retreats. It features sections for class schedule, instructors, testimonials and all styled to reflect wellness and balance. 
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "tailwindCSS", "Node.js", "Vercel"].map((tech, key) => (
+                {["React", "tailwindCSS", "Node.js", "Vite", "Vercel"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-700 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -157,7 +157,7 @@ export const Projects = () => {
                 navigation and responsiveness. Implemented custom styling and animations to enhance user experience and engagements.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["HTML", "CSS", "JavaScript", "Vercel"].map((tech, key) => (
+                {["HTML5", "CSS3", "JavaScript (ES6)", "Vercel"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-700 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
