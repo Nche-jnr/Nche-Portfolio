@@ -96,7 +96,7 @@ export const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-black/100 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"></h3>Admin Dashboard</h3>
+              <h3 className="text-xl font-bold mb-2">Admin Dashboard</h3>
               <p className="text-black mb-4">
               Built a data-heavy dashboard with light/dark modes, featuring 11 pages of interactive charts, data grids, and scheduling tools.
               </p>
