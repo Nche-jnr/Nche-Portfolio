@@ -69,6 +69,60 @@ export const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-black/100 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">Mindscribe</h3>
+              <p className="text-black mb-4">
+             a MERN stack platform featuring AI content assistance, rich-text editing, and secure JWT authentication
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React", "React Router", "Tailwind CSS", "JavaScript", "Express", "Mongoose", "JWT Authentication", "AI Integration"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-700 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                        hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <button className="text-blue-700 hover:text-blue-900 transition-colors my-4 cursor-pointer">
+                  <a
+                    href="https://mindscribe-fcfk.vercel.app"
+                  >
+                    View Project →
+                  </a>
+                </button>
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-black/100 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2"Admin Dashboard</h3>
+              <p className="text-black mb-4">
+              Built a data-heavy dashboard with light/dark modes, featuring 11 pages of interactive charts, data grids, and scheduling tools.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React", "React Router", "tailwindCSS", "Node.js", "Material UI", "Emotion Styling", "vite"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-700 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                        hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <button className="text-blue-700 hover:text-blue-900 transition-colors my-4 cursor-pointer">
+                  <a
+                    href="https://admin-db-red.vercel.app"
+                  >
+                    View Project →
+                  </a>
+                </button>
+              </div>
+            </div>
+            
+            <div className="p-6 rounded-xl border border-black/100 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
               <p className="text-black mb-4">
               Built a responsive e-commerce bakery website, featuring product listing, interactive shopping cart, a clean and modern UI. Focused on smooth user experience and mobile-first design.
